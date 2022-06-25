@@ -1,0 +1,47 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 30px auto;
+  width: 60%;
+  min-height: 70vh;
+}
+.image {
+  width: 30%;
+  height: 30%;
+  color: #fff;
+  overflow: hidden;
+}
+.image img {
+  display: block;
+  width: 100%;
+}
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  gap: 5px;
+}
+.pagination .page-num {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+}
+.pagination .page-num:hover {
+  background-color: #5ab;
+  color: #fff;
+}
+.pagination .active {
+  background-color: #5ab;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
